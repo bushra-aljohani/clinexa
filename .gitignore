@@ -1,0 +1,164 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (NEVER COMMIT SECRETS!)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+experiments.db
+evaluation.db
+
+# Storage Directories (large files)
+rag_storage/
+texgama_batches/
+batch_exports/
+
+# Result Files (keep summary, exclude bulk)
+*_batches/
+evaluation_results.json
+ragas_evaluation_results.json
+model_comparison_bertscore.json
+txgemma_result_with_metadata.json
+txgemma_pipeline_test.json
+
+# Model Cache
+models/
+*.bin
+*.safetensors
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Temporary and session files
+SESSION_SUMMARY*.md
+temp_*
+tmp_*
+test_*.txt
+*_temp.*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Images (except logo and framework diagram)
+*.png
+*.jpg
+*.jpeg
+*.gif
+!logo.png
+!Clinexa.png
+
+# LaTeX temporary files
+*.aux
+*.out
+*.toc
+
+# ========================================
+# LOCAL/INTERNAL FILES - Not for public repo
+# ========================================
+
+# Documentation (keep README only)
+BANNER_DESIGN_SPEC.md
+BATCH_PROCESSING_README.md
+BERTSCORE_SUMMARY.md
+COLAB_INSTRUCTIONS.txt
+COLAB_QUICKSTART.md
+DEMO_GUIDE.md
+DEMO_README.md
+DIAGRAM_VISUAL_GUIDE.md
+HONEST_ASSESSMENT.md
+KAGGLE_QUICK_REFERENCE.md
+KAGGLE_SUBMISSION_GUIDE.md
+MODEL_SHOWDOWN.md
+PAPERBANANA_PROMPT.md
+QUICK_REFERENCE.md
+RECONNECT_AND_DOWNLOAD_GUIDE.md
+TIKZ_COMPILATION_GUIDE.md
+UPLOAD_MISSING_ONLY.txt
+
+# Project source documents
+Clinexa_Project_Description.docx
+Clinexa_Project_Description.pdf
+
+# Process/utility scripts
+DOWNLOAD_REMAINING_BATCHES.py
+EVALUATION_PLAN.py
+EVALUATION_REPORT.md
+REPROCESS_BATCHES_11_20.py
+check_demo.py
+check_demo_data.py
+txgemma_batch_colab.py
+install_evaluation_packages.sh
+
+# Demo files (keeping minimal)
+demo_app.py
+demo_requirements.txt
+
+# LaTeX source files
+medical_rag_pipeline_horizontal_tikz.tex
+medical_rag_pipeline_simple_tikz.tex
+medical_rag_pipeline_tikz.tex
+
+# Pipeline exports
+pipeline_export_for_colab.json
+
+# Notebooks (keep only txgemma_9b_chat.ipynb)
+Making_the_Most_of_your_Colab_Subscription.ipynb
+MedGemma_27B_Fixed.ipynb
+TXGemma_Pipeline_Test.ipynb
+
+# Directories to exclude
+docs/
+notebooks/
+tests/
+
+# src subdirectories to exclude (keep only agents/)
+src/__pycache__/
+src/evaluation/
+src/utils/
+src/*.py
+!src/__init__.py

@@ -1,0 +1,16 @@
+{
+  "evaluation_id": "llm-judge-20260211-194333",
+  "judge_model": "gpt-4o",
+  "evaluated_models": [
+    "gpt-4o-mini",
+    "google/txgemma-9b-chat"
+  ],
+  "sample_size": 20,
+  "results": {
+    "gpt_wins": 19,
+    "txgemma_wins": 0,
+    "ties": 1,
+    "gpt_avg_score": 4.52,
+    "txgemma_avg_score": 3.77
+  }
+}
