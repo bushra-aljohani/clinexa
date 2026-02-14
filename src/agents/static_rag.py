@@ -33,8 +33,8 @@ class StaticRAG:
     def __init__(
         self,
         mongodb_uri: Optional[str] = None,
-        db_name: str = "HealthcareDataset",
-        collection_name: str = "sampled_pubmedqa",
+        db_name: Optional[str] = None,
+        collection_name: Optional[str] = None,
         vector_weight: float = 0.6,
         sparse_weight: float = 0.4,
         limit: int = 1000,
@@ -43,8 +43,8 @@ class StaticRAG:
         force_rebuild: bool = False
     ):
         self.mongodb_uri = mongodb_uri or os.getenv("MONGODB_URI")
-        self.db_name = db_name
-        self.collection_name = collection_name
+        self.db_name = db_name or os.getenv("MONGODB_DB_NAME", "your_database")
+        self.collection_name = collection_name or os.getenv("MONGODB_COLLECTION", "your_collection")
         self.vector_weight = vector_weight
         self.sparse_weight = sparse_weight
         self.train_split = train_split
