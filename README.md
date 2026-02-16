@@ -5,17 +5,27 @@
 <p align="center">
   <b>Agentic Hybrid Medical Intelligence</b>
 </p>
+
 <p align="center">
   <a href="https://clinexa-demo.streamlit.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀_Try_Live_Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   </a>
 </p>
 
-[![Kaggle Competition](https://img.shields.io/badge/Kaggle-MedGemma%20Impact%20Challenge-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/medgemma-impact-challenge)
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://www.kaggle.com/competitions/medgemma-impact-challenge">
+    <img src="https://img.shields.io/badge/Kaggle-MedGemma%20Impact%20Challenge-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" />
+  </a>
+</p>
 
-> A multi-agent medical RAG system that intelligently combines **static knowledge**, **dynamic APIs**, and **TXGemma-9B synthesis** to deliver current, comprehensive, and clinically accurate medical answers.
+> Clinexa is a multi-agentc medical RAG system that solves the critical problem of knowledge obsolescence in healthcare AI by combining static medical corpora, dynamic PubMed APIs, and TXGemma-9B synthesis to deliver clinically grounded and temporally aware answers.
+
 
 ![Clinexa Framework](Clinexa.png)
 
