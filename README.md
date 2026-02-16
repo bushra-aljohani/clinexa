@@ -1,4 +1,8 @@
-# Clinexa ![Clinexa](Modern medical-tech logo design.png)
+# Clinexa 
+
+<p align="center">
+  <img src="Modern medical-tech logo design.png" width="300"/>
+</p>
 **Agentic Hybrid Medical Intelligence**
 
 [![Kaggle Competition](https://img.shields.io/badge/Kaggle-MedGemma%20Impact%20Challenge-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/medgemma-impact-challenge)
