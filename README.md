@@ -2,8 +2,6 @@
   <img src="Modern medical-tech logo design.png" width="300"/>
 </p>
 
-<h1 align="center">Clinexa</h1>
-
 <p align="center">
   <b>Agentic Hybrid Medical Intelligence</b>
 </p>
