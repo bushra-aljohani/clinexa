@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="clinexa-logo.png" width="300"/>
+  <img src="Modern medical-tech logo design.png" width="300"/>
 </p>
 
 <h1 align="center">Clinexa</h1>
